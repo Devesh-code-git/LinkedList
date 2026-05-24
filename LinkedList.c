@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "LinkedList.h"
 
-LinkedList* create() {
+LinkedList* LinkedList_create() {
     LinkedList* L = malloc(sizeof(LinkedList));
     if (!L) {
         return NULL;
