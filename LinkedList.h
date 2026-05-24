@@ -12,7 +12,7 @@ typedef struct LinkedList {
     Node* head;
 } LinkedList;
 
-LinkedList* create();
+LinkedList* LinkedList_create();
 
 Node* search(LinkedList* L, int key);
 void add(LinkedList* L, int key, int value);
